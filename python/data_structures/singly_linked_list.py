@@ -78,12 +78,7 @@ class LinkedList:
         return current
 
     def print_list(self):
-        values=[]
-        current=self.head
-        while current:
-            values.append(str(current.value))
-            current=current.next
-        print (" -> ".join(values) + "-> None")
+        print(self)
 
     def get(self, index):
         if index < 0 or index >= self.length:
@@ -129,4 +124,3 @@ class LinkedList:
         temp.next = None
         self.length -= 1
         return temp
-

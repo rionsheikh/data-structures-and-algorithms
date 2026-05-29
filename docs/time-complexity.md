@@ -2,7 +2,7 @@
 When analyzing algorithms, we often use Big O notation to describe how the runtime grows with input size.
 when we talk about Big O, usually mean the **worst case**.
 
-<img width='400'  src='../../images/big_o_cases.png' />
+<img width='400'  src='./files/big_o_cases.png' />
 
  **O(n) – Linear Time**
   - The running time grows **linearly** with input size `n`. 
